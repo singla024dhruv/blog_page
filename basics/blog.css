@@ -173,14 +173,23 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #dc6520;
 }
-#recent-posts ul
-{
+#recent-posts li{
     color:#000000;
 }
-#recent-posts li
+#recent-posts li span
 {
     color:#dc6520;
     font-size:18px;
     word-spacing: 1.2px;
    
+}
+#search img{
+    background-color: #000000;
+    width: 30px;
+    border: 1px solid #d1d1d1;
+    margin-top:4px;
+
+}
+#search input{
+    display:inline-block;
 }
